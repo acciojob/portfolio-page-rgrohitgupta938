@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.port {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.port img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+.port p {
+    margin-top: 20px;
+}
